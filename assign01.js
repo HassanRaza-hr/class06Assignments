@@ -22,3 +22,4 @@ for (let n1 = 0; n1 <= digit * 2; n1++) {
     else { }
 }
 console.log(result1);
+//now i can input the number of first even numbers
