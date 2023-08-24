@@ -43,7 +43,7 @@ function list(arr) {
 list([23, 45, 67, 89, 76, 43]); //FAILED
 //Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array.
 var marks = [20, 30, 40, 50, 60, 70, 80];
-for (let h = marks.length; h >= 0; h--) {
+for (let h = marks.length; h >= 0; h--) { // for(let h=0;h<marks.length;h++)
     if (marks[h] < 50) {
         marks.splice(h, 1);
     }
