@@ -30,4 +30,22 @@ for (let x = array1.length; x >= 0; x--) {
         array1.splice(x, 1);
     }
 }
-console.log("attempt 3", array1); //SUCCEED
+console.log("attempt 3", array1); //SUCCEED but not in the function tool
+//Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array.
+function list(arr) {
+    for (let index = 0; index < arr.length; index++) {
+        if (arr[index] < 50) {
+            arr.splice(index, 1);
+            console.log("attempt # 4", arr[index]);
+        }
+    }
+}
+list([23, 45, 67, 89, 76, 43]); //FAILED
+//Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array.
+var marks = [20, 30, 40, 50, 60, 70, 80];
+for (let h = marks.length; h >= 0; h--) {
+    if (marks[h] < 50) {
+        marks.splice(h, 1);
+    }
+}
+console.log("attempt # 5:", marks);
