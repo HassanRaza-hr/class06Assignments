@@ -12,7 +12,7 @@ function findingLargestDigit(digit) {
 var numberss = [12, 34, 56, 78, 90, 100];
 var largestNum = findingLargestDigit(numberss);
 console.log(largestNum); //parctice attmept pass
-// Method #2;
+// Method #2;                   finding smallest number
 function num1(listOfNum) {
     var bigNum = listOfNum[0];
     for (let s = 0; s < listOfNum.length; s++) {
